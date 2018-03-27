@@ -1,0 +1,56 @@
+
+
+<div class="contenedor">
+  
+ <nav class="navbar navbar-light bg-light barra">
+
+    <i class="fab fa-twitter icono"></i>
+    <span class="navbar-brand mb-0 h1 barrat">TWEET SEARCH</span> 
+
+  </nav>
+
+  <section class="mainResults"  >
+      
+
+    <div class="tweet" ng-repeat="datos in data">
+
+      <div class="avatarDiv">
+
+          <img class="avatar" src="{{datos.icon}}"></img>
+
+      </div>
+
+      <div class="tweetBody">
+
+        <div class="user">
+
+          <div class="userName">{{datos.name}}</div>
+
+          <div class="userId">{{datos.user}}</div>
+
+        </div>
+
+        <div class="text"> {{datos.text}}</div>
+
+        <img src="{{datos.photo}}" alt="" class="photo" >
+
+              
+      </div>    
+
+    </div>
+    
+    
+    <div class="buttonGroup">
+
+      <button class="btn btn-outline-dark search copy" data-clipboard-text="{{url}}" ng-click="copy()">Copy Search Url</button> 
+      
+      <button class="btn btn-outline-dark search new" ng-click="goBack()">New Search</button>
+
+    </div>
+    
+
+  </section>
+
+</div>
+
+

@@ -1,0 +1,285 @@
+html{
+
+	height: 100%;
+
+}
+
+body{
+
+   height: 100%;
+
+}
+
+.ngview{
+
+   height: 100%;
+
+}
+
+
+.contenedor{
+
+   height: 100%;
+   background : linear-gradient(#FBFBF9 63.5%, #FEFEFE 10%)
+
+}
+
+
+.barra{
+
+   height: 8%;
+   display: flex;
+   background-color: #FAFAF8 !important;
+
+
+} 
+
+.barrat{
+
+	font-family: 'Architects Daughter', cursive;
+	color: #868686!important;
+	font-weight: bolder;
+	padding-left: 20px;
+	
+}
+
+.icono{
+
+	font-size: 30px;
+	width: 10%;
+	color: #ADACAC !important;
+
+}
+
+.mainSearch{
+
+	height: 92%;
+	background-image: url(../img/busqueda.jpg); 
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
+
+.choose{
+
+	font-family: 'Great Vibes', cursive;
+	padding-top: 10%;
+	padding-left: 15%;
+	font-weight: 40px;
+}
+
+
+.searchGroup{
+
+	display: flex;
+
+}
+
+.word{
+	width: 30%;
+	min-width: 20%;
+	margin-left: 13%;
+
+
+}
+
+.search{
+	
+	margin-left: 1%;
+	}
+
+
+.mainResults{
+
+	width: 100%;
+    min-height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: none; 
+		
+}
+
+.tweet{
+
+
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	height: auto;
+
+
+
+}
+
+.avatarDiv{
+
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	height: 100px;
+
+}
+
+
+.avatar{
+
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+
+}
+
+.tweetBody{
+
+	width: 80%;
+
+}
+
+.user{
+    
+	display: flex;
+	flex-direction: row;
+}
+
+
+.userName{
+
+	font-weight: bolder;
+	margin-right: 10px;
+}
+
+
+
+.text{
+
+	height: 50px;
+}
+
+.photo{
+
+	width: 100%;
+	height: 350px;
+}
+
+
+.buttonGroup{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 60%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.copy,.new{
+
+	height: 40px;
+}
+
+/*-------Mediaqueries--------*/
+
+@media screen and (max-width: 970px) {
+
+.barrat{
+
+	font-size: 1rem;
+	
+}
+.mainSearch{
+
+	background-size: 100%;
+}
+
+.choose{
+
+	padding-left: 5%;
+	
+}
+
+
+.word{
+	width: 40%;
+	margin-left: 3%;
+
+}
+
+.photo{
+
+	height: 300px;
+}
+
+
+
+}
+
+@media screen and (max-width: 870px) {
+
+
+.choose{
+
+	font-size: 30px;
+	
+}
+
+.word{
+	width: 50%;
+	
+
+}
+
+.tweet{
+
+	width: 90%;
+}
+
+
+.avatarDiv{
+
+	width: 30%;
+	
+}
+
+.tweetBody{
+
+	width: 70%;
+
+}
+
+.photo{
+
+	height: 200px;
+}
+
+
+
+}
+
+@media screen and (max-height: 470px) {
+
+
+.barra{
+
+	
+	height: 16%
+
+}
+
+
+.mainSearch{
+
+	background-size: 50%;
+}
+
+.choose{
+
+
+	padding-top: 5%;
+
+}
+
+}
+
+
