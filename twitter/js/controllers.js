@@ -1,14 +1,8 @@
 twitterApp.controller('twitterAppController', function ($scope, $location,$http,$window) {
 
 
-$scope.showSearch = true;
-$scope.showResults = false;
-
-
 $scope.find = function(){
 
-$scope.showSearch = false;
-$scope.showResults = true;
 $(".contenedor").css("background","white");
 $(".contenedor").css("height","auto");
 
